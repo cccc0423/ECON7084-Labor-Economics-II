@@ -1,0 +1,84 @@
+\usepackage{xeCJK}
+\usepackage{fontspec}
+\setCJKmainfont{Songti TC}
+\XeTeXlinebreaklocale "zh"
+%\setlength{\parskip}{0.3cm}
+\setCJKsansfont{Taipei Sans TC Beta}
+\newCJKfontfamily\kai{Kaiti TC}
+\usepackage[small]{titlesec}
+\newCJKfontfamily\quotefont{Kaiti TC}
+\usepackage{lipsum}
+\usepackage{graphicx,psfrag,booktabs}
+\usepackage{caption}
+\usepackage{tikz-cd}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{url}
+\urlstyle{tt}
+\usepackage{enumitem}
+\setlist*{nosep}
+\let\oldfootnote\footnote
+\renewcommand\footnote[1]{\oldfootnote{%
+\renewcommand\baselinestretch{1.1}%
+\large\footnotesize\ignorespaces#1}}
+\addtolength{\footnotesep}{1pt}
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}[subsection]
+\newtheorem{definition}{Definition}[subsection]
+\newtheorem{exercise}{Exercise}[section]
+\newtheorem{example}{Example}[subsection]
+\usepackage{multirow}
+\newtheorem*{remark}{Remark}
+\newtheorem*{question}{Question}
+
+\newtheorem{answer}{Answer}
+
+\theoremstyle{remark}
+\newtheorem*{solution}{Solution}
+
+
+%\setcounter{secnumdepth}{2}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning, calc, shapes.geometric, shapes.multipart,
+shapes, arrows.meta, arrows,
+decorations.markings, external, trees}
+
+\tikzstyle{Arrow} = [
+thick,
+decoration={
+markings,
+mark=at position 1 with {
+\arrow[thick]{latex}
+}
+},
+shorten >= 3pt, preaction = {decorate}
+]
+
+\usepackage{booktabs}
+\usepackage{siunitx}
+\newcolumntype{d}{S[input-symbols = ()]}
+
+\setmainfont{TeX Gyre Pagella}%[Numbers={Proportional,OldStyle}]
+\setmathfont{TeX Gyre Pagella Math}
+%\setmathfont{TeX Gyre Pagella}[range=up/{num},Numbers={OldStyle}]
+%\setsansfont{Fira Sans}%[Numbers={Proportional,OldStyle}]
+
+%\setmainfont{STIX Two Text}%[Numbers={Proportional,OldStyle}]
+%\setmathfont{STIX Two Math}
+%\setmathfont{STIX Two Text}[range=up/{num},Numbers={OldStyle}]
+
+%\setmainfont{XITS}%[Numbers={Proportional,OldStyle}]
+%\setmathfont{XITS Math}
+\setmonofont{Fira Code}
+%\setmathfont{XITS}[range=up/{num},Numbers={OldStyle}]
+
+%\setmainfont{EB Garamond}
+%\setmathfont{Garamond-Math}[Scale=MatchUppercase]
+%\setsansfont{Fira Sans}
+
+%\renewcommand{\abstractname}{摘要}
+%\renewcommand{\figurename}{圖}
+%\renewcommand{\tablename}{表}
+
