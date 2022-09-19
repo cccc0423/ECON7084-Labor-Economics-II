@@ -31,3 +31,5 @@ editor_options:
 ---
 
 \lipsum[1]
+
+\lipsum[2]
