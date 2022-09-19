@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.12)  16 SEP 2022 16:37
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.12)  19 SEP 2022 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2342,14 +2342,14 @@ LaTeX Font Info:    Font shape `TU/TeXGyrePagella(0)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 155.
 [1
 
-] (./HelloWorld.aux) ) 
+] [2] (./HelloWorld.aux) ) 
 Here is how much of TeX's memory you used:
  40565 strings out of 476179
  895215 string characters out of 5809544
- 1423438 words of memory out of 5000000
+ 1429438 words of memory out of 5000000
  60674 multiletter control sequences out of 15000+600000
  474589 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,11n,122p,1007b,769s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,11n,122p,1007b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on HelloWorld.pdf (1 page).
+Output written on HelloWorld.pdf (2 pages).

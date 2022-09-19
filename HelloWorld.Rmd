@@ -30,6 +30,4 @@ editor_options:
     wrap: 72
 ---
 
-\lipsum[1]
-
-\lipsum[2]
+\lipsum
